@@ -1,0 +1,18 @@
+a = int(input("a의 수 : "))
+b = int(input("b의 수 : "))
+
+print('입력한 수 중 큰 수는', end='')
+if a > b :
+    print(a,'입니다')
+else :
+    print(b,'입니다')
+
+k = int(input("키를 입력하세요."))
+if 180 < k or k < 120 :
+    print("입장 불가")
+else :
+    print("입장 가능")
+
+ki = int(input('키를 입력 : '))
+if not(120 <= ki <= 180) :
+    print('입장불가')
