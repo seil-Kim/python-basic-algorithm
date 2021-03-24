@@ -1,0 +1,29 @@
+for x in range(3):
+    print("금 나와라! 뚝딱~")
+
+for i in range(5):
+    print(i)
+
+for y in 'abcde':
+    print(y)
+
+for z in ['금요일','토요일','일요일']:
+    print(z)
+
+for j in range(1,11):
+    print(j)
+
+for k in range(2,11,2):
+    print(k)
+
+for q in range(3,11,3):
+    print(q)
+
+sum = 0
+for e in range(1,11,2):
+    sum += e
+print("1부터 10까지 홀수의 합 : ",sum)
+
+print("구구단 출력하기")
+for x in range(1,10):
+    print("2 x",x,"=",2*x)
