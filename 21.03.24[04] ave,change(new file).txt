@@ -1,0 +1,19 @@
+국어 = 100
+영어 = 97
+평균 = (국어 + 영어) / 2
+print("평균 = ", 평균)
+
+a = 10
+b = 20
+tmp = 0
+tmp = a
+a = b
+b = tmp
+print("a = ", a)
+print("b = ", b)
+
+a = 10
+b = 20
+a,b = b,a
+print("a = ", a)
+print("b = ", b)
