@@ -1,0 +1,12 @@
+a,b = 5,2
+
+if a > b:
+    print("a가 b보다 크다")
+    
+x = int(input("숫자를 입력하세요."))
+if x >= 10 and x <= 25:
+    print("입력하신 숫자는 %4d 입니다."%x)
+
+num = int(input('수를 입력 : '))
+if 10 <= num <= 25 :
+    print(num)
