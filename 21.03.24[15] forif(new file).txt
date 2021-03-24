@@ -1,0 +1,9 @@
+su = 50
+print('-'*su)
+a = int(input("어디까지 출력할까요?"))
+print('-'*su)
+
+for i in range(1,a+1,1):
+    print("%5d"%i,end='')
+    if(i%10==0):
+          print('\n')
