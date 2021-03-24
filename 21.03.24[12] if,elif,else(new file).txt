@@ -1,0 +1,17 @@
+a = int(input("숫자 입력 : "))
+if(a >= 1000) :
+    print(a,"는 고수")
+elif(a >= 800) :
+    print(a,"는 보통")
+else :
+    print(a,"점은 노력하세요")
+
+
+a = int(input("a를 입력하세요 : "))
+b = int(input("b를 입력하세요 : "))
+if a > b :
+    print('%d > %d'%(a,b))
+elif a == b :
+    print('%d = %d'%(a,b))
+else :
+    print('%d < %d'%(a,b))
