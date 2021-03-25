@@ -1,9 +1,0 @@
-a = 1
-while a <= 9 :
-    print("2 x", a,"=",2*a)
-    a = a+1
-
-while True:
-    a = input('끝내고 싶습니까?(y/n)')
-    if a == 'Y' or a == 'y':
-        break
