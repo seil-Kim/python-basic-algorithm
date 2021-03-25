@@ -1,0 +1,15 @@
+def add(x,y):
+    r = x + y
+    print(r)
+
+print('25 + 30의 결과 : ',end='')
+add(25,30)
+
+
+def add(x,y):
+    r = x + y
+    return r
+
+a = add(25,30)
+
+print('25 + 30 = ',a)
