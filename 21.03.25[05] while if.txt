@@ -1,9 +1,0 @@
-f = 0
-save = n = 16384
-while True:
-    n /= 2
-    f += 1
-    if n < 2 :
-        break
-   
-print('%d는 2의 %d승 입니다.'%(save, f))
