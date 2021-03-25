@@ -1,0 +1,22 @@
+def C_F_conv(g, temper):
+    if(g==1):
+        return temper * 1.8 + 32
+    else:
+        return (temper - 32) / 1.8
+
+def MenuPrint():
+    print("""=================
+1. 섭씨 -> 화씨
+2. 화씨 -> 섭씨
+3. End...
+=================""")
+
+while True:
+    MenuPrint()
+    menu = int(input("선택 : "))
+    if menu > 2:
+        break
+
+    temp = int(input("온도 입력 >> "))
+    result = C_F_conv(menu, temp)
+    print(result)
