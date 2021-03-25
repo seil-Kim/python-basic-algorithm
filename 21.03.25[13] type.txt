@@ -1,0 +1,18 @@
+str(1)
+
+float(1), float("1.0")
+
+int(1.5), int("1")
+# int("one") # 에러
+
+min(4,3,7,3,4,9), max(4,3,7,3,4,9)
+
+min(range(5,10)), max(range(5,10))
+
+min("a","B","c","D"), max("a","B","c","D")
+
+min("b11","a10","a20","b09")
+
+max("b11","a10","a20","b09")
+
+min("a","B","c"), min("a","B","c",key = str.lower)
