@@ -1,0 +1,11 @@
+# 리스트에서 짝수 번째 요소만 추출
+listdata = list(range(1,20))
+evenlist = listdata[1::2]   # 1을 0으로 바꾸면 홀수번째 요소가 나옴
+print(evenlist)
+
+print('\n')
+
+# 리스트에서 3의배수번째 요소만 추출
+listdata = list(range(1,20))
+evenlist = listdata[2::3] 
+print(evenlist)
