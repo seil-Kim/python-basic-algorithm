@@ -1,0 +1,17 @@
+char = set('apple')
+print(char)
+
+if 'd' not in char:
+    char.add('d')       # 항목 한 개 추가
+print(char)
+
+print('\n')
+
+char = set('apple')
+print(char)
+
+char.update(['p', 'e', 'a', 'r'])
+print(char)
+
+char.update(set('orange'))      # 항목 여러 개 추가
+print(char)
