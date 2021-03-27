@@ -1,0 +1,17 @@
+number = [2, 5, 3, 9, 4, 3, 6, 4]
+char = ['T', 'a', 'i', 's', 'S']
+print(number)
+print(char)
+
+number.sort()
+char.sort()
+print(number)
+print(char)
+
+char.sort(key=str.lower)        # 대소문자 구분 없이
+print(char)
+
+number.sort(reverse=True)       # 내림차순 정렬
+char.sort(reverse=True)
+print(number)
+print(char)
