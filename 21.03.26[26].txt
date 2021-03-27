@@ -1,0 +1,12 @@
+# sorted() - 정렬된 후의 과일 이름과 갯수 출력해보기
+
+# 딕셔너리 만들기
+b = {'배':2, '사과':1, '딸기':3}
+print('딕셔너리',b)
+print('='*25)
+
+# 순서대로 정렬된 과일 목록 출력
+fruit = sorted(b)
+print('정렬된 과일 =', fruit)
+for key in fruit:
+    print(key,':',b[key])
