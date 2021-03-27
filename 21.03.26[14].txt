@@ -1,0 +1,23 @@
+# sorted(), shuffle() - 무작위로 섞기
+from random import shuffle
+number = [2,5,3,9,7,1,6,4]
+sorted(number)
+print(number)
+for i in range(3):      # 3번 무작위로 섞어라
+    shuffle(number)
+    print(number)
+
+print('\n')
+
+# sum()
+ret = sum(number)
+print(ret)
+
+print('\n')
+
+# enumerate() - 리스트 요소를 인덱스와 쌍으로 추출
+solarsys = ['태양','수성','금성','지구','화성','목성','토성','천왕성','해왕성']
+ret = list(enumerate(solarsys))
+print(ret)
+for i, body in enumerate(solarsys):
+    print('태양계의 %d 번째 천체 : %s'%(i,body))
