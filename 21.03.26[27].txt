@@ -1,0 +1,19 @@
+# 클래스 정의 소스코드
+class WinterIOC :                        # 클래스 생성
+    ice_choice = ""                     # 필드(변수) 선언
+    count = 0
+
+    def __init__(self, ice, count) :    # 매개변수가 있는 생성자 선언( _ 두개 들어가요)
+        self.ice_choice = ice
+        self.count = count
+
+# 메인 프로그램 소스 코드
+print('* 클래스 필드를 직접 호출하여 출력 *')
+print('-' * 55)
+
+myGame = WinterIOC("컬링", 4)
+
+print('>> 출전종목 : %s'%myGame.ice_choice)
+print('>> 출전인원 : %d 명'%myGame.count)
+
+print('-' * 55)
