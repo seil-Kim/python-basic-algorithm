@@ -1,0 +1,21 @@
+# 클래스 정의 소스코드
+class WinterIOC :                       # 클래스 생성                     
+    ice_choice = ""                      # 인스턴스 변수       
+    a_count = 0                         # 인스턴스 변수
+    n_count = 0                         # 클래스 변수
+    def __init__(self):                     # 기본 생성자 사용
+        self.ice_choice = ""            # 인스턴스 변수 사용
+        WinterIOC.n_count += 1      # 클래스 변수 사용
+
+# 메인 프로그램 소스 코드
+
+myGame1 = WinterIOC()
+myGame1.ice_choice = '컬링'
+print('>> 경기종목 : %s ' % myGame1.ice_choice)         # 인스턴스 변수 값 출력
+print('>> 출전국가 : %d 개국' % WinterIOC.n_count)    # 클래스 변수 값 출력
+print('-' * 25)
+
+myGame2 = WinterIOC()
+myGame2.ice_choice = '컬링'
+print('>> 경기종목 : %s ' % myGame2.ice_choice)         # 인스턴스 변수 값 출력
+print('>> 출전국가 : %d 개국' % WinterIOC.n_count)    # 클래스 변수 값 출력
