@@ -1,0 +1,42 @@
+s_class = {'1반':28, '2반':30}
+
+keys = s_class.keys()
+values = s_class.values()
+
+print(s_class)
+print(keys)
+print(values)
+
+print('===============')
+s_class['1반'] = 31
+print(s_class)
+print(keys)
+print(values)
+
+print('\n')
+
+s_class = {'1반':28, '2반':30}
+
+items = s_class.items()
+print(s_class)
+print(items)
+
+print('===============')
+s_class['1반'] = 31
+print(s_class)
+print(items)
+
+print('===============')
+for key,value in items:
+    print(key,'=',value)
+
+print('\n')
+
+# pop(key) : key에 해당되는 항목의 값을 리턴하고 삭제
+s_class = {'1반':28, '2반':30}
+print(s_class)
+
+print('===============')
+value = s_class.pop('1반')
+print(s_class)
+print('1반 지움',value)
