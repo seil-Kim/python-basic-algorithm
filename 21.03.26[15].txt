@@ -1,0 +1,18 @@
+a = list()
+a.append(int(input("숫자를 입력 >> ")))
+a.append(int(input("숫자를 입력 >> ")))
+a.append(int(input("숫자를 입력 >> ")))
+a.append(int(input("숫자를 입력 >> ")))
+a.append(int(input("숫자를 입력 >> ")))
+print(a)
+
+total=sum(a)
+ave=total/5
+big = max(a)
+small = min(a)
+
+print('============')
+print('합계 :', total)
+print('평균 :', ave)
+print('최대값 :', big)
+print('최소값 :', small)
