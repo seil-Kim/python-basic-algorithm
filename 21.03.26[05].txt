@@ -1,0 +1,23 @@
+x = ['a', 'b', 'c']
+new_x = x       # 리스트 주소 복사
+print(new_x, x)
+
+new_x[0] = 'A'
+print(new_x, x)
+
+print("\n")
+
+# 리스트 생성
+x = ['a', 'b', 'c']
+
+# 리스트 x의 값 복사
+y = x[:]
+
+print('x =', x)
+print('y =', y)
+
+# 리스트 y의 첫번째 항목 변경
+y[0] = 'A'
+
+print('x =',x)
+print('y =',y)
