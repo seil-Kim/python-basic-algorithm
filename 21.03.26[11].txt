@@ -1,0 +1,14 @@
+food = ['피자', '치킨', '햄버거', '피자', '치킨', '햄버거']
+print(food)
+
+i = food.index('치킨')
+print(i,food[i])
+
+i = food.index('치킨', i+1)       # 위에서 i를 썼기에 가능
+print(i,food[i])
+
+n = food.count('치킨')
+print('치킨',n,'개')
+
+i = food.index('라면')        # 에러 납니다
+print(i,food[i])
