@@ -1,0 +1,28 @@
+food = list()
+print(food)
+
+food.extend(['피자','치킨'])
+print(food)
+
+food.append('햄버거')
+print(food)
+
+food.insert(0,'도넛')
+print(food)
+
+print('\n')
+
+food = list()
+print(food)
+
+food.extend(['피자','치킨'])
+print(food)
+
+food.append(['햄버거','도넛']) # 리스트 채로 추가된다
+print(food)
+
+print('\n')
+
+food=list()
+food.extend('햄버거') # 문자열을 삽입하려고 하면 리스트로 쪼개서 넣어버림
+print(food)
