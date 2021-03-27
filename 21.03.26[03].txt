@@ -1,0 +1,11 @@
+fruit = 'banana-grape-apple-orange'
+print(fruit)
+
+basket = fruit.split('-') # - 기준으로 쪼갬
+print(basket)
+
+fruit = "banana grape apple orange"
+print(fruit)
+
+basket = fruit.split( ) # 공백 기준으로 쪼갬
+print(basket)
