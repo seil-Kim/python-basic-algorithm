@@ -1,0 +1,14 @@
+'''
+튜플 : 변경할 수 없는 리스트. append(), remove(), sort() 사용불가
+
+튜플명 = ('항목1', '항목2', '항목3', ...)
+'''
+
+basket = ('사과',)
+print(basket)
+
+basket = basket + ('오렌지', '배')
+print(basket)
+
+print(basket[0], basket[1])
+
