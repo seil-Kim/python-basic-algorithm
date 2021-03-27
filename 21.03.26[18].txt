@@ -1,0 +1,24 @@
+'''
+세트 : 순차적이지 않고 중복이 불가능한 리스트
+'''
+
+basket = {'사과', '오렌지', '배'}
+print(basket)
+
+basket = {'사과', '오렌지', ('우유', '쥬스')}
+print(basket)
+
+number = {1, 2, 3}
+print(number)
+
+number = set()        # 빈 세트 할당.  {}는 딕셔너리
+print(number)
+'''
+number = {[1, 2, 3]}    # 에러납니다. set 안에 list 못넣음 
+print(number)
+'''
+number = set([1, 2, 3])     # 리스트 각각의 요소를 가지고 set를 만든다
+print(number)
+
+char = set('abcdefg')
+print(char)
