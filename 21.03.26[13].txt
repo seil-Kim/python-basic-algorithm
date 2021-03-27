@@ -1,0 +1,16 @@
+number = [1,2,3,1,2,3]
+print(number)
+
+number.reverse()
+print(number)
+
+print('\n')
+
+num1 = [1,2,3]
+print(num1)
+
+num2 = num1.copy()      #=num1[:]
+print(num2)
+
+num2[0] = 0
+print(num1, num2)
