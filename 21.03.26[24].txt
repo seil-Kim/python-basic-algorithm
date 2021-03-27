@@ -1,0 +1,25 @@
+s_class = {'1반':28, '2반':30}
+
+print(s_class.get('1반'))
+print(s_class.get('2반'))
+print(s_class.get('3반'))            # 해당 키가 없을 경우 None 리턴
+print('============')
+print(s_class.get('1반', 0))
+print(s_class.get('2반', 0))
+print(s_class.get('3반', 0))         # 해당 키가 없을 경우 0 리턴
+print(s_class)
+
+print('\n')
+
+s_class = {'1반':28, '2반':30}
+
+print(s_class.setdefault('1반'))
+print(s_class.setdefault('2반'))
+print(s_class.setdefault('3반'))     # 키가 없을 경우 해당 키에 None 값으로 값 추가
+print(s_class)
+
+print('============')
+print(s_class.setdefault('1반', 0))
+print(s_class.setdefault('2반', 0))
+print(s_class.setdefault('3반', 0))  
+print(s_class)
