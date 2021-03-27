@@ -1,0 +1,24 @@
+# 클래스 정의 소스코드
+class WinterIOC :                       # 클래스 생성                     
+    __ice_choice = ""                   # private 필드 생성              
+    __count = 0
+
+    def __init__(self, ice, count) :    # 생성자
+        self.__ice_choice = ice
+        self.__count = count
+    def get_ice(self) :
+        return self.__ice_choice
+    def get_count(self) :
+        return self.__count
+
+# 메인 프로그램 소스 코드
+print('* 클래스에서 선언한 get 메서드를 호출하여 출력 *')
+print('-' * 55)
+
+myGame1 = WinterIOC("컬링", 4)
+myGame2 = WinterIOC("피겨 스케이팅", 2)
+
+print('>> %s 종목에 %d 명이 출전합니다.' % (myGame1.get_ice(), myGame1.get_count()))
+print('>> %s 종목에 %d 명이 출전합니다.' % (myGame2.get_ice(), myGame2.get_count()))
+
+print('-' * 55)
