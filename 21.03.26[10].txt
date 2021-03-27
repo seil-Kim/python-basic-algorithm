@@ -1,0 +1,18 @@
+food = ['피자', '치킨', '햄버거', '피자', '삼겹살', '라면', '콜라']
+
+food.remove('피자')       # 첫 번째 만나는 같은 항목 삭제
+print('food=', food)
+
+eat = food.pop()        # 마지막 항목 리턴, 리스트에서 삭제
+print('food=', food)
+print('eat=', eat)
+
+eat = food.pop(2)       # 2 번째 항목 리턴, 리스트에서 삭제
+print('food=', food)
+print('eat=', eat)
+
+del food[1:3]           # 1-2 번째 항목 삭제
+print('food=', food)
+
+food.clear()            # 모든 항목 삭제
+print('food=', food)
