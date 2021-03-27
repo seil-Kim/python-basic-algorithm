@@ -1,0 +1,15 @@
+char = set('abcdef')
+
+for c in char:
+    print(c,end='')
+print()
+
+for c in sorted(char):
+    print(c,end='')
+print()
+
+c = set('abcde')
+print(c)
+
+cc=sorted(c)
+print(cc)
