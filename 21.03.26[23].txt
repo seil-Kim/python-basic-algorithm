@@ -1,0 +1,34 @@
+# 딕셔너리 - 키와 값의 쌍으로 이루어짐
+# 딕셔너리 명 = { 키(key)1 : 값(Value)1, 키(key)2 : 값(Value)2, ... }
+
+s_class = {'1반':28, '2반':30}
+print(s_class)
+
+new_dic = {}
+print(new_dic)
+
+new_dic = dict()
+print(new_dic)
+
+print('\n')
+
+# 딕셔너리 변수 접근하기
+s_class = {'1반':28, '2반':30}
+print(s_class)
+
+print(s_class['1반'])
+print(s_class['2반'])
+
+for key in s_class:
+    # print('key=',key,end='~')
+    # print('value=',s_class[key])
+    print(key,'인원수 =',s_class[key],'명')
+    
+'''
+print(s_class['3반'])
+'''
+
+if '3반' in s_class:
+    print(s_class['3반'])
+else:
+    print('3반은 없습니다')
